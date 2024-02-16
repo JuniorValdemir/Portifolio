@@ -1,0 +1,58 @@
+/* HEADER CSS */
+header {
+  background-color: #a9a9a9;
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  margin-right: 1.3rem;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-instagram {
+  color: #e4405f;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-github {
+  color: #24292e;
+  transition: 0.2s ease-in-out;
+}
+
+header span:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: #fff;
+}
